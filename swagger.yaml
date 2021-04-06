@@ -1,0 +1,18 @@
+openapi: 3.0.0
+info: 
+  version: 1.0.0
+  title: M D PUNEETH REDDY sample
+  description: A simple example
+  license:
+    name: MIT
+    url: https://opensource.org/licenses/MIT
+  components:
+    securitySchemes: 
+      bearerAuth: 
+        type: http
+        scheme: bearer
+        bearerFormat: JWT
+    servers:
+        url: http://localhost:3000/api
+        
+    
